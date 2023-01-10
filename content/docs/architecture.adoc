@@ -9,7 +9,7 @@ Doing this, Hop aims to have a minimal installation footprint and wants to be st
 
 The way these goals are achieved is by allowing orchestration workloads, defined in the broadest possible sense, to be defined as metadata. This metadata can then be expressed in various ways like an XML or JSON document, a database of any type or indeed a graphical user interface.  The user interfaces delivered by this project needs to cover 100% of all functionality, removing the need for external editors or tools.
 
-Apache Hop decided to use a single metadata interface for all expressions of metadata. Once orchestration metadata is defined we offer tools to execute as flexibly as possible: locally or remotely in the native Hop engine, on Apache Spark, Apache Flink or Google Cloud Dataflow through Apache Beam, with additional runtime engines like Apache Airflow planned for futre versions.
+Apache Hop decided to use a single metadata interface for all expressions of metadata. Once orchestration metadata is defined we offer tools to execute as flexibly as possible: locally or remotely in the native Hop engine, on Apache Spark, Apache Flink or Google Cloud Dataflow through Apache Beam, with additional runtime engines like Apache Airflow planned for future versions.
 
 image:/img/apache-hop-architecture.png[Apache Hop Architecture, width="75%"]
 
